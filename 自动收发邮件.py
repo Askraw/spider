@@ -11,7 +11,7 @@ app.config['MAIL_SERVER'] = 'smtp.qq.com'
 app.config['MAIL_PORT'] = 587
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USERNAME'] = '724995297@qq.com'
-app.config['MAIL_PASSWORD'] = 'zluzjjprxwbabbbc'
+app.config['MAIL_PASSWORD'] = ''
 mail = Mail(app)
  
 msg = Message('标题', sender='724995297@qq.com', recipients=['724995297@qq.com'])
