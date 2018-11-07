@@ -61,11 +61,12 @@ while not q.empty():
                 i+=1
         #print(s)
             
-        keywords=soup.find_all('h1')
+        keywords=soup.find_all('title')
         for keyword in keywords:
             
             s1 = keyword.get_text()
             s1 = s1.strip('\n')
+            s1=s1[:-5]
             print("title:"+s1)
             output=s1
 
